@@ -1,21 +1,34 @@
 
-.Header {
+.Header 
+{
     background-color: #282c34;
     display: flex;
     justify-content: center;
     color: white;
-  }
+}
+
+h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
   
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+.cards
+{
+    border-radius: 5px;
+    background-color:papayawhip;
+    margin: 0.5%;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: 0.3s;
+    display: block;
+    width:30%;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.cards:hover 
+{
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+}

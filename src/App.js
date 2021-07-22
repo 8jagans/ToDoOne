@@ -1,11 +1,11 @@
-import AllU from './Components/AllU/AllUsers.js';
+import React from 'react'
+import Pages from './Components/Pages/Pages'
 
-function App() {
-  return (
-      <div className="Body">
-        <AllU> </AllU>
-      </div>
-  );
+//App component that contain Pages componet
+export default function App() {
+    return (
+        <div>
+            <Pages />
+        </div>
+    )
 }
-
-export default App;
