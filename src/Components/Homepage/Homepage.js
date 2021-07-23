@@ -1,11 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Homepage.css';
+import React , {useEffect} from 'react'
+import { useHistory } from 'react-router-dom'
 
 export default function Homepage() {
+    const history = useHistory();
+    useEffect(() => {
+        history.push('/users')
+    },[])
     return (
-        <div className="links">
-            <Link to='/users'> ToDoOne </Link>
-        </div>
+         <div> </div>
     )
 }

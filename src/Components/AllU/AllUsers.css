@@ -1,17 +1,9 @@
-
-.Header 
+.header 
 {
     background-color: #282c34;
-    display: flex;
     justify-content: center;
-    color: white;
 }
 
-h1
-{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-  
 .cards
 {
     border-radius: 5px;
@@ -25,10 +17,66 @@ h1
     width:30%;
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
 }
 .cards:hover 
 {
     box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+}
+
+.mail
+{
+    color: black;
+    size: 30px;
+}
+.arrow
+{
+    color: black;
+    float: right;
+    font-size:25px;
+    cursor: pointer;
+}
+
+.arrow1
+{
+    float: right;
+    margin-right: 8%;
+    color: brown;
+    font-size:25px;
+}
+.para
+{
+    background-color: grey;
+    color: honeydew;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+    padding:1%;
+}
+
+.a1
+{
+    font-size: large;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .cards
+    { 
+        display: block;
+        width:80%;
+        float: left;
+        margin-bottom: 3%;
+        margin-left: 8%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .para
+    {   
+        font-size:medium;
+    }
+    .a1
+    {
+        font-size: medium;
+    }
 }
